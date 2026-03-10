@@ -1,0 +1,101 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Flat File Connection Manager"
+  DTS:DTSID="{A508E170-6BD1-4687-8FCC-984CA428ABF9}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="1033"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:ColumnNamesInFirstDataRow="True"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1252"
+      DTS:ConnectionString="C:\Users\marim\Downloads\MOCK_DATA (1).txt">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="id"
+          DTS:DTSID="{649871AF-7268-45AB-BC28-AE2AC9F2D727}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="first_name"
+          DTS:DTSID="{7DC33FFD-52CC-40F3-8A5B-E479DAD8367A}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="last_name"
+          DTS:DTSID="{E395AABE-ECC4-4383-AC1D-A2CD7764EBA1}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="email"
+          DTS:DTSID="{E7FAE242-F0A0-4953-8AD6-2154EF922839}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="gender"
+          DTS:DTSID="{E001E46E-B6FF-4BFB-802E-8E59734827B1}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="age"
+          DTS:DTSID="{06C3A39A-A789-494E-B0DE-F7D65519A28D}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="salary"
+          DTS:DTSID="{7D490A18-146F-4BB3-BF1E-A6DCBB1C52F7}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="department"
+          DTS:DTSID="{3872441D-A1F0-4243-B5A0-34589906BA3B}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="country"
+          DTS:DTSID="{B7BD4B28-4827-4B08-9C21-4440D323973C}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
