@@ -31,7 +31,17 @@ The pipeline is divided into three distinct logical phases:
   Bulk Loading: Enabled Fast Load on OLE DB Destinations for high-speed data ingestion.
   Modular Design: Used Sequence Containers to separate Dimension and Fact loading phases, ensuring referential integrity.
 
-
 - **Dim_Emp / Dim_Dept / Dim_Loc / Dim_Gender:** Descriptive attributes for filtering and grouping.
+
+
+<img width="1041" height="478" alt="Screenshot 2026-03-10 220655" src="https://github.com/user-attachments/assets/510a79b1-7f83-43c0-a023-184f31e322ff" />
+<img width="1257" height="518" alt="Screenshot 2026-03-10 221039" src="https://github.com/user-attachments/assets/d96c7e4b-52c2-4803-bd82-8307e8f2ad76" />
+<img width="1121" height="468" alt="Screenshot 2026-03-10 221102" src="https://github.com/user-attachments/assets/bd946249-e63b-4b14-a7c4-0e8f30d664e2" />
+<img width="1243" height="815" alt="Screenshot 2026-03-10 221159" src="https://github.com/user-attachments/assets/a2e7a7a7-ee16-40d6-8b07-23ea54079984" />
+
+
+
+
+
 
 ---
